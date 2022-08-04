@@ -1,5 +1,3 @@
-
-
 let phonebook = [];
 
 function getPhonebook(){
