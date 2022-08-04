@@ -3,7 +3,7 @@ const path = require('path');
 const handlebars = require('express-handlebars');
 const bodyParser = require('body-parser');
 const routing = require('./routing');
-const port = 6969;
+const port = 3000;
 const app = express();
 
 app.engine(".hbs", handlebars({
