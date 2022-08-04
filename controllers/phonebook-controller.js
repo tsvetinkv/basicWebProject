@@ -11,8 +11,8 @@ module.exports = {
   addPhonebookPost: (req, res) => {
     let name = req.body.name;
     let number = req.body.number;
-    let conact = new Contact(name, number);
-    phonebook.addNumber(conact);
+    let contact = new Contact(name, number);
+    phonebook.addContact(contact);
     res.redirect("/");
   },
 };

@@ -4,10 +4,10 @@ function getPhonebook(){
 	return phonebook;
 }
 
-function addNumber(){
+function addContact(contact){
 phonebook.push(contact);
 }
 module.exports = {
 	getPhonebook,
-	addNumber
+	addContact
 };
